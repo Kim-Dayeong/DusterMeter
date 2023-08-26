@@ -4,5 +4,5 @@
 <img width="614" alt="스크린샷 2023-07-14 오후 10 33 12" src="https://github.com/Kim-Dayeong/DusterMeter/assets/114847045/b63c812e-5f85-45a6-a32e-b5c234bcde00">
 
 
-Uploading 미세먼지 측정 어플리케이션 (김다영,심채원).mp4…
+
 
