@@ -28,10 +28,10 @@ const options = {
 
     //DB
 const client = mysql.createConnection({
-    host: "10.0.5.161",
-    port:'3306',
-    user: "root",  
-    password: "raspberry",
+    host: "",
+    port:'',
+    user: "",  
+    password: "",
     database: "mysql"
 });
 
@@ -48,7 +48,7 @@ const client = mysql.createConnection({
     
            
         var url = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty';
-        var queryParams = '?' + encodeURIComponent('serviceKey') + '=aeyWMR9bHz6tch8FAPiOiuPoI%2BYvGImSqJSjQx7kB7rguqnMMP7WhAfCxH5xMk1kujpECK530srXKfaAofH26A%3D%3D'; /* Service Key*/
+        var queryParams = '?' + encodeURIComponent('serviceKey') + 'serverkeywritehere'; /* Service Key*/
         queryParams += '&' + encodeURIComponent('returnType') + '=' + encodeURIComponent('json'); /* */
         queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('100'); /* */
         queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('1'); /* */
